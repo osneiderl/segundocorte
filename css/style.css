@@ -1,0 +1,65 @@
+/* Configuración general */
+* {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor principal */
+.container {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Sección de noticias */
+section {
+    text-align: justify;
+    padding: 20px;
+}
+
+/* Imagen */
+.imagen img {
+    width: 100%;
+    display: block;
+}
+
+/* Encabezado y navegación */
+header {
+    background-color: black;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+header nav ul li a:hover {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
